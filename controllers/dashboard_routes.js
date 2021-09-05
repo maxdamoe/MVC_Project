@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { Post, User, Comment } = require('../models');
 const withAuth = require('../utils/authentication');
-
+const sequelize = require('../config/connection');
 // GET ALL POSTS
 
 router.get('/', withAuth, (req, res) => {
@@ -69,7 +69,7 @@ router.get('/edit/:id', withAuth, (req, res) => {
       if (dbPostData) {
         const post = dbPostData.get({ plain: true });
         
-        res.render('edit-post', {
+        res.render('edit_post', {
           post,
           loggedIn: true
         });
