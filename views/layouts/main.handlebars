@@ -11,17 +11,17 @@
 <body>
   <div class="container">
     <header>
-      <h1>
-        <a href="/">Maxblog</a>
-      </h1>
       <nav>
         {{#if loggedIn}}
-        <a href="/dashboard">dashboard</a>
         <button id="logoutButton" class="regularButton">logout</button>
+        <a href="/dashboard">dashboard</a>
         {{else}}
         <a href="/login">login</a>
         {{/if}}
       </nav>
+       <h1>
+        <a href="/">Maxblog</a>
+      </h1>
     </header>
     <main>
       {{{ body }}}

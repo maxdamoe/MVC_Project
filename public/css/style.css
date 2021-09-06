@@ -9,15 +9,9 @@
   
   .regularButton {
     background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    text-decoration: none;
-    color: #002c63;
+    color:green;
     font-size: 100%;
-    font-weight: bold;
-    transition: color 0.1s;
-    margin-left: 16px;
+    margin-left: 20px;
   }
   
   .container {
@@ -42,12 +36,9 @@
   }
   
   button {
-    background-color: #00d4b8;
-    border: 0;
+    background-color:yellow;
     padding: 1%;
-    color: white;
-    font-weight: bold;
-    transition: background-color 0.1s;
+    color:purple;
     cursor: pointer;
     border-radius: 5px;
   }
