@@ -5,7 +5,7 @@ async function loginFormHandler(event) {
     const password = document.querySelector("#login_pass").value.trim();
   
     if (email && password) {
-      const response = await fetch("/api/users/login", {
+      const response = await fetch("https://immense-scrubland-07716.herokuapp.com/api/users/login ", {
         method: "post",
         body: JSON.stringify({
           email,
