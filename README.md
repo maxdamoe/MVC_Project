@@ -4,3 +4,8 @@ This is my MVC project. It follows the MVC file structure, and uses node.js, exp
 
 ![image](./Screenshot.png)
 
+
+Link to deployed application: https://immense-scrubland-07716.herokuapp.com/
+
+
+
