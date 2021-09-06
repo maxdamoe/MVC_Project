@@ -12,8 +12,9 @@ async function loginFormHandler(event) {
           password,
         }),
         headers: { "Content-Type": "application/json", 
-        'Host': 'https://immense-scrubland-07716.herokuapp.com/',
-        'Accept': 'application/json' },
+        // 'Host': 'https://immense-scrubland-07716.herokuapp.com/',
+        // 'Accept': 'application/json'
+      },
       });
   
       if (response.ok) {
@@ -40,8 +41,8 @@ async function loginFormHandler(event) {
           password,
         }),
         headers: { "Content-Type": "application/json", 
-                    'Host': 'https://immense-scrubland-07716.herokuapp.com/',
-                    'Accept': 'application/json'
+                    // 'Host': 'https://immense-scrubland-07716.herokuapp.com/',
+                    // 'Accept': 'application/json'
       },
       });
   
